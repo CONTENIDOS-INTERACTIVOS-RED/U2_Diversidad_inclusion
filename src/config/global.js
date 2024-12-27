@@ -111,14 +111,74 @@ export default {
   },
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Aguado Odina, M. T., Merodio Alonso, G. & Melero Sánchez, H. (2023). Diversidad cultural y equidad en la escuela. UNED - Universidad Nacional de Educación a Distancia.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/228555?page=32',
+    },
+    {
+      referencia:
+        'Montoya Agudelo, C. A. (2023). Dignidad humana e inclusión laboral. Fondo Editorial Universidad Cooperativa de Colombia.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/250746?page=150',
+    },
+    {
+      referencia:
+        'Buk. (2024). La inclusión laboral: ¿Qué es y por qué debe importarnos? ',
+      link:
+        'https://www.buk.mx/blog/la-inclusion-laboral-que-es-y-por-que-debe-importarnos',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Cultura',
+      significado:
+        'Conjunto de conocimientos, creencias, arte, leyes, costumbres y cualquier otra capacidad adquirida por los miembros de una sociedad',
+    },
+    {
+      termino: 'Discriminación',
+      significado:
+        'Trato desigual o perjudicial hacia una persona o grupo, basado en prejuicios como raza, género, orientación sexual o religión',
+    },
+    {
+      termino: 'Diversidad',
+      significado:
+        'Variedad y diferencia dentro de un grupo, especialmente en términos de raza, etnia, género, orientación sexual, y otros aspectos',
+    },
+    {
+      termino: 'Equidad',
+      significado:
+        'Principio de justicia que implica dar a cada persona lo que necesita para alcanzar su máximo potencial, versus dar a todos exactamente lo mismo',
+    },
+    {
+      termino: 'Estereotipo',
+      significado:
+        'Imagen o idea simplificada y generalizada sobre un grupo de personas, que no considera las diferencias individuales',
+    },
+    {
+      termino: 'Inclusión',
+      significado:
+        'Actitud y práctica de incluir y dar la bienvenida a personas con diferentes características y trasfondos',
+    },
+    {
+      termino: 'Igualdad',
+      significado:
+        'Principio que asegura que todas las personas, independientemente de sus diferencias, tengan las mismas oportunidades para participar en la sociedad',
+    },
+    {
+      termino: 'Interculturalidad',
+      significado:
+        'Interacción entre culturas diferentes, de manera respetuosa y beneficiosa para la convivencia en la comunidad',
+    },
+    {
+      termino: 'Prejuicio',
+      significado:
+        'Opinión o actitud negativa hacia una persona o grupo, basada en estereotipos o ideas preconcebidas',
+    },
+    {
+      termino: 'Pluralidad cultural',
+      significado:
+        'Existencia de diferentes grupos culturales dentro de una sociedad, que contribuye a la diversidad y la riqueza, destinado a generar actitudes y comportamientos',
     },
   ],
   complementario: [],

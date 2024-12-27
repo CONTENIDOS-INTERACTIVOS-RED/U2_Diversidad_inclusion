@@ -22,9 +22,8 @@
               .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
                 p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
                 h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-                p.descripcion.mb-4 La diversidad y la inclusión son pilares esenciales para la construcción de sociedades justas y equitativas, donde cada individuo, con sus características únicas, es valorado y respetado. En esta unidad, exploraremos los conceptos fundamentales de la diversidad en sus distintas formas —cultural, étnica y de género—, así como la importancia de la inclusión como proceso que garantiza la participación plena y equitativa de todas las personas. Comprender y aplicar estos principios, no solo enriquece nuestras interacciones sociales, sino que también fomenta un ambiente donde las diferencias son vistas como una fortaleza que contribuye al desarrollo y la cohesión social.
-
-                p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárense para fortalecer su capacidad de valorar la diversidad y ser líderes en la promoción de la inclusión!
+                p.descripcion.mb-4 Desde el reconocimiento de la riqueza de nuestras diferencias hasta el enfrentamiento de las barreras de discriminación y exclusión, la diversidad y la inclusión nos impulsan a construir una sociedad más equitativa. En esta unidad, exploraremos cómo la diversidad cultural y social da forma a nuestras interacciones, reflexionando sobre estrategias que promuevan la inclusión en contextos educativos y laborales. A través del análisis de casos y conceptos clave, buscaremos entender cómo las expresiones culturales, la eliminación de estereotipos y la implementación de estrategias inclusivas fortalecen la convivencia y enriquecen nuestras experiencias.
+                p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárese para transformar la percepción de la diversidad en un motor de cambio positivo!
 
   
                 .button-container.mt-auto
