@@ -2,9 +2,9 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La unidad I:  Introducción al derecho y sus fuentes, establece los fundamentos teóricos esenciales para comprender el origen de las normas jurídicas y su aplicación. 
+    p.mb-4.mb-md-5 La unidad I: Conceptos fundamentales de diversidad e inclusión, desarrolla los principios teóricos claves para comprender la importancia de la diversidad y la inclusión en diferentes contextos sociales. A lo largo de esta unidad, se exploran los tipos de diversidad —cultural, étnica y de género—, así como los fundamentos de la inclusión, destacando su papel en la construcción de sociedades justas y equitativas. Además, se analizan las normas y legislaciones colombianas que promueven la diversidad y garantizan la inclusión. Este enfoque integral prepara a los estudiantes para aplicar estos conceptos en su entorno, fortaleciendo su capacidad para fomentar el respeto, la igualdad y la cohesión social.
     figure
-      img(src='@/assets/componentes/sintesis-test.png', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/sintesis/sintesis.svg', alt='Texto que describa la imagen')
     
 
 </template>

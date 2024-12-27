@@ -1,4 +1,23 @@
+.bg
+  &-1
+    background-color: #D3F7E6
+  &-2
+    background-color: #E1FAEE
+  &-3
+    background-color: #F9E6E9
 
+  &-4
+    background-color: #FEF6E8
+  &-5
+    background-color: #E9F2FA
+  &-6
+    background-color: #FEEED4
+  &-7
+    background-color: #EAF2FB
+  &-8
+    background-color: #FEF8E7
+  &-9
+    background-color: #E5F8F8
 .banner-principal-decorativo
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
@@ -20,3 +39,124 @@
 
 .container.tarjeta
   overflow-y: hidden
+.h-card
+  &-1
+    height: 220px
+    @media screen and (max-width: $bp-max-sm)
+      height: auto
+.br-10
+  border-radius: 10px
+/*COMPONENTS STYLES*/
+.iniciar-btn-container .icon
+  background-color: #8B454E !important
+.acordion__header
+  background-color: #F5FDFA !important
+
+.acordion__header--active
+  background-color: $color-acento-contenido !important
+  h4, i
+    color: #000 !important
+
+.acordion__contenido
+  background-color: #E3FBF2 !important
+.slyder-a__tipo-b
+  background-color: #004A54 !important
+.slyder-a__bullets__item
+  border-color: #319AA8 !important
+  background-color: #319AA8 !important
+.slyder-a__bullets__item--active
+  background-color: #99CED6 !important
+  border-color: #99CED6 !important
+.shadow-soft 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05);
+i.fas.fa-circle.color-acento-contenido
+  color: $color-acento-contenido
+  font-size: 12px
+.bg-color-white
+    background-color: #fff
+.linea-tiempo-d__item__content__title,
+.linea-tiempo-d__item__number
+    background-color: #F5FDFA !important
+.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #A4F0D6 !important
+.linea-tiempo-d__item__content__title.active
+  background-color: #A4F0D6 !important
+.linea-tiempo-d__item__content__slot
+  background-color: #E3FBF2 !important
+.titulo-figura
+  margin-bottom: 24px
+  border-left: 0px solid
+  padding: 5px 0 5px 0px
+  h5
+    display: inline-block
+    margin-right: 10px
+    margin-bottom: 0
+.slyder-f__btn i 
+    background-color: $color-primario
+    color: #fff
+// Variables#0c1512#0c1512
+$custom-card-border-radius: 0px
+$custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
+$custom-card-text-bg: #FFF
+$custom-card-text-padding: 15px
+$custom-card-text-font-size: 14px
+$custom-card-img-height: 322px
+.custom-image-card
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: $custom-card-img-height
+    object-fit: cover
+
+.custom-image-card-2
+  border-radius: 10px
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: 224px
+    object-fit: cove
+
+// Full Width Background
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+.bg-fondo
+  &-1
+    background-image: url("../assets/bg/1.svg") !important
+    background-position: center
+  &-2
+    background-color: #F9E6E9
+  &-3
+    background-image: url("../assets/bg/2.svg") !important
+    background-position: center
+  &-slider
+    background-image: url("../assets/bg/3.svg") !important
+    background-position: bottom
+  &-4
+    background-color: #DFECF7
+  &-5
+    background-color: #FEEED4
+  &-6
+    background-image: url("../assets/bg/1.svg") !important
+    background-position: top
+    /* &-slider-2
+      background-image: url("../assets/bg/2.svg") !important
+      background-position: top*/
