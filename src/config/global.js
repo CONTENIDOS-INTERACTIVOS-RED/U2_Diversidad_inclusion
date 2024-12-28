@@ -42,7 +42,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: '',
+        titulo: 'Discriminación, exclusión y estereotipos',
         desarrolloContenidos: true,
         subMenu: [
           {
