@@ -81,25 +81,28 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: '',
+        titulo:
+          'Estrategias para promover la inclusión cultural en la educación y el trabajo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: '',
+            titulo:
+              '¿Qué es la inclusión cultural y cómo se ve reflejada en los entornos educativos y laborales?',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: '',
+            titulo: 'Estrategias para promover la inclusión en la educación',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: '',
+            titulo:
+              'Estrategias para promover la inclusión cultural en el ámbito laboral',
             hash: 't_3_3',
           },
         ],
