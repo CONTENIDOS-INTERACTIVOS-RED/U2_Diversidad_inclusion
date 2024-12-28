@@ -25,12 +25,15 @@
   &-1
     background-image: url("../assets/bg/pink.svg") !important
     background-position: center
+  &-2
+    background-image: url("../assets/bg/blue.svg") !important
+    background-position: center
   &-3
-    background-image: url("../assets/bg/2.svg") !important
+    background-image: url("../assets/bg/3.svg") !important
     background-position: center
   &-slider
     background-image: url("../assets/bg/3.svg") !important
-    background-position: bottom
+    background-position: center
   &-6
     background-image: url("../assets/bg/1.svg") !important
     background-position: top
@@ -96,13 +99,26 @@ i.fas.fa-circle.color-acento-contenido
     background-color: #fff
 .linea-tiempo-d__item__content__title,
 .linea-tiempo-d__item__number
-    background-color: #F5FDFA !important
+    background-color: #FEF6E8 !important
 .linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-  background-color: #A4F0D6 !important
+  background-color: #FEE6BF !important
 .linea-tiempo-d__item__content__title.active
-  background-color: #A4F0D6 !important
+  background-color: #FEE6BF !important
 .linea-tiempo-d__item__content__slot
-  background-color: #E3FBF2 !important
+  background-color: #FEE6BF !important
+
+
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item__content__title,
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item__number
+    background-color: #E1FAEE !important
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: $color-secundario !important
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item__content__title.active
+  background-color: $color-secundario !important
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item__content__slot
+  background-color: $color-secundario !important
+
+
 .titulo-figura
   margin-bottom: 24px
   border-left: 0px solid
@@ -153,9 +169,9 @@ $custom-card-img-height: 322px
 .bg-full-width
   background-size: cover
   background-repeat: no-repeat
-  background-position: bottom
-  margin-inline: -3.3rem
+  margin-inline: -3.7rem
   @media screen and (max-width: $bp-max-sm)
     padding-left: 1.5rem
     padding-right: 1.5rem
+
 

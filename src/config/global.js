@@ -15,14 +15,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: '',
+        titulo: 'Diversidad cultural y sus expresiones',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: '',
+            titulo: 'Orígenes y evolución',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Diversidad cultural: expresiones culturales ',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'La diversidad cultural en la educación',
+            hash: 't_1_3',
           },
         ],
       },
