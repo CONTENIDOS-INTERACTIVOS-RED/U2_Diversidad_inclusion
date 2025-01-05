@@ -218,13 +218,20 @@
             p Para fomentar un ambiente de trabajo inclusivo, es necesario crear un entorno donde se respeten y valoren las diferencias culturales, promoviendo la colaboración y el respeto mutuo. Esto puede incluir la implementación de políticas de no discriminación, la promoción de la equidad salarial, la adaptación de espacios físicos para personas con discapacidad y la creación de programas de apoyo para empleados de diversos orígenes. Un ambiente de trabajo inclusivo, no solo mejora la satisfacción y el bienestar de los empleados, sino que también aumenta la productividad y la cohesión del equipo.
       .col-sm-12.col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/t3/24.png')
-    .bg-full-width.bg-6.mb-0(data-aos='fade-up')
+    .bg-full-width.bg-6.mb-5(data-aos='fade-up')
       .px-5.py-4
         .row.align-items-center
           .col-lg-auto.d-none.d-lg-block
             img(src='@/assets/curso/t3/25.svg', style='max-width: 90px').mx-auto         
           .col-lg
             p.mb-0 Finalmente, promover la inclusión cultural es una responsabilidad social. Tanto las empresas como el gobierno, tienen el poder de influir positivamente en la sociedad, al establecer estándares de equidad y respeto. Al implementar políticas inclusivas, las organizaciones contribuyen a la construcción de una sociedad participativa y pluricultural.
+
+    .bg-full-width.border-top.actividad.ctn-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario='cuestionario'/>
+
+
 </template>
 
 <script>
@@ -234,6 +241,179 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Diversidad e inclusión cultural',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto: '¿Qué se entiende por diversidad cultural?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La imposición de una cultura sobre las demás.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La variedad de culturas que coexisten en una sociedad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'La exclusión de las culturas minoritarias.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El rechazo a tradiciones ancestrales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La diversidad cultural se refiere a la coexistencia de diferentes culturas en una sociedad.',
+          mensaje_incorrecto:
+            'Lo sentimos, esa no es la respuesta correcta. Intenta nuevamente.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Qué término describe el rechazo o trato desigual hacia una persona debido a su origen cultural?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Discriminación',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Inclusión',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Estereotipo',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Universalización',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La discriminación es el trato desigual basado en el origen cultural.',
+          mensaje_incorrecto:
+            'Lo sentimos, esa no es la respuesta correcta. Intenta nuevamente.',
+        },
+        {
+          id: 3,
+          texto: '¿Cuál es un ejemplo de estereotipo?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Promover la inclusión de costumbres afrocolombianas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Celebrar el Día del idioma en colegios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Implementar políticas de equidad laboral.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Creer que todas las mujeres son menos capaces en matemáticas.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! Los estereotipos son generalizaciones incorrectas sobre grupos específicos.',
+          mensaje_incorrecto:
+            'Lo sentimos, esa no es la respuesta correcta. Intenta nuevamente.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Qué tipo de discriminación se presenta al ignorar las lenguas maternas de ciertos grupos?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Exclusión social',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Discriminación cultural',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Exclusión educativa',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Discriminación lingüística',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La discriminación lingüística ocurre cuando se ignoran o menosprecian las lenguas maternas.',
+          mensaje_incorrecto:
+            'Lo sentimos, esa no es la respuesta correcta. Intenta nuevamente.',
+        },
+        {
+          id: 5,
+          texto: '¿Cuál es un principio fundamental de la inclusión cultural?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Segregación',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Exclusión',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Equidad',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Imposición cultural',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La equidad es un principio fundamental para la inclusión cultural.',
+          mensaje_incorrecto:
+            'Lo sentimos, esa no es la respuesta correcta. Intenta nuevamente.',
+        },
+      ],
+      mensaje_final_aprobado:
+        '¡Felicitaciones! Has superado la prueba con éxito.',
+      mensaje_final_reprobado:
+        'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
