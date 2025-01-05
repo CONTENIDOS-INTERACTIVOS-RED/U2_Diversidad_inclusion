@@ -315,7 +315,7 @@
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto
                   p <strong>Anexo. </strong> La diversidad cultural en la educación
-    .bg-full-width.bg-6.mb-0(data-aos="fade-up")
+    .bg-full-width.bg-6.mb-5(data-aos="fade-up")
       .p-4.bg-color-5.mb-0
         .row.align-items-center
           .col-lg-auto.d-none.d-lg-block
@@ -324,7 +324,36 @@
             p.mb-0 La diversidad cultural es un fenómeno que no solo forma parte de la riqueza de la humanidad, sino que también es un componente esencial de los procesos educativos. En Colombia, la pluralidad cultural debe ser entendida como una oportunidad para fortalecer la educación, promoviendo el respeto, la inclusión y la equidad. La diversidad cultural, cuando es adecuadamente valorada y comprendida, puede convertirse en una herramienta pedagógica poderosa que prepara a los estudiantes para vivir y aprender en un mundo cada vez más globalizado y plural.
 
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://elplacerdelalectura.com/wp-content/uploads/2020/02/el_diario_de_ana_frank.pdf' target='_blank' rel='noopener noreferrer') El placer de la lectura. (s.f.). El Diario de Ana Frank.
+            
+            
+            p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+                a(href='https://www.radionacional.co/cultura/tradiciones/dia-de-la-diversidad-etnica-y-cultural-en-colombia-grupos-etnicos-choco' target='_blank' rel='noopener noreferrer') Hernández, J. L. M. (2023). La diversidad cultural en Colombia, una hermosa realidad (Blog). Radio Nacional de Colombia.
 
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.deepl.com/' target='_blank' rel='noopener noreferrer') DeepL.
+
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://youtu.be/rIZUjbN88Ss?si=9Gn75D5Olc-Sf-qf' target='_blank' rel='noopener noreferrer') Banrepcultural. (2021). Los saberes de la gente del río: cocineros | El río: territorios posibles.
+            
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 </template>

@@ -197,7 +197,7 @@
           div(numero='2' titulo='Función social') Desde un enfoque social, los estereotipos ayudan a que los grupos se mantengan unidos, pero también pueden generar actitudes negativas hacia aquellos que son distintos. Por ejemplo, en un grupo de amigos que comparten el mismo interés, pueden sentir una fuerte conexión entre ellos, pero al mismo tiempo pueden excluir a quienes no comparten ese interés. Esto muestra el lado negativo de los estereotipos, puesto que la protección del grupo puede llevar a rechazar a los que son considerados "diferentes".
           div(numero='3' titulo='Función literaria') En la literatura, los estereotipos son utilizados como herramientas que permiten a los autores conectar con sus lectores. Por ejemplo, un escritor puede describir a un personaje como "el típico chico que siempre llega tarde", y esto ayuda a que el lector entienda rápidamente, el tipo de persona que es, sin necesidad de una explicación larga.
 
-    .bg-full-width.bg-15.mb-0(data-aos="fade-up")
+    .bg-full-width.bg-15.mb-5(data-aos="fade-up")
       .px-5
         .row.justify-content-center.align-items-center
           .col-sm-12.col-lg-7
@@ -207,7 +207,36 @@
 
 
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://repository.unilibre.edu.co/bitstream/handle/10901/28316/ARTICULO%20-%20%20ESPECIALIZACION%20UNILIBRE%20-%20%20Racismo%20y%20Discriminacion%20en%20Colombia........%20AVANCE...pdf?sequence=1' target='_blank' rel='noopener noreferrer') Cifuentes, R.D.G. (2023). Racismo y discriminación en Colombia; una forma de exclusión social, laboral, política y económica a poblaciones étnicas.
+            
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://psicologiaynente.com/social/tipos-exclusion-social' target='_blank' rel='noopener noreferrer') Hernández, L. M.C. (2020). Los 9 tipos de exclusión social, y cómo afectan a la ciudadanía. pymOrganization.
 
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.kaggle.com/' target='_blank' rel='noopener noreferrer') Kaggle.
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://youtu.be/wz8U9YMNEMI?si=Q1oX5egqD1NjgPdU' target='_blank' rel='noopener noreferrer') Pastoral Social e Innovación – Madrid. (2020). EXCLUSIÓN. Ian.
+            
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 

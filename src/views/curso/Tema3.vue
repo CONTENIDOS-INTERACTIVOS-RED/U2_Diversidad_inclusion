@@ -225,7 +225,30 @@
             img(src='@/assets/curso/t3/25.svg', style='max-width: 90px').mx-auto         
           .col-lg
             p.mb-0 Finalmente, promover la inclusión cultural es una responsabilidad social. Tanto las empresas como el gobierno, tienen el poder de influir positivamente en la sociedad, al establecer estándares de equidad y respeto. Al implementar políticas inclusivas, las organizaciones contribuyen a la construcción de una sociedad participativa y pluricultural.
-
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2007-78902020000800001' target='_blank' rel='noopener noreferrer') Jiménez Carrillo, J. & Mesa Villavicencio, P. (2020). La cultura inclusiva para la atención a la diversidad. Dilemas contemporáneos: educación, política y valores.
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://blogs.worldbank.org/es/latinamerica/la-inclusion-social-un-compromiso-largo-plazo' target='_blank' rel='noopener noreferrer') Molina, C. (2021). La inclusión social, un compromiso a largo plazo. Blogs del Banco Mundial. 
+            
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://youtu.be/CtvlG-kx810?si=F1ZdGvRRZ7yTe81d' target='_blank' rel='noopener noreferrer') Digital Family Canal. (2023). Educación inclusiva: Oportunidades para todos.
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
     .bg-full-width.border-top.actividad.ctn-actividad
       .p-4.p-md-5
         #Actividad                
