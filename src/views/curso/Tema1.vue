@@ -112,7 +112,7 @@
                     .col-6.col-md-4.mb-4
                       img(src='@/assets/curso/t1/10.svg' alt='Icono Nasa Yuwe')
                   h4.text-center Nasa Yuwe
-                  p.text-center Hablada por los Nasa en el Cauca
+                  p.text-center Hablada por los Nasa en el Cauca.
 
               .row.py-4.px-3.h-100
                 .col-sm-12.col-lg-12.shadow-app.p-3.py-md-5.px-md-4.bg-color-white
@@ -310,7 +310,7 @@
           .col-lg-7
              h2.mb-4 La diversidad cultural en la educación
              p.mb-4 En el PDF La diversidad cultural en la educación, se abordan conceptos clave y enfoques teóricos como la educación intercultural, multicultural y global, que ofrecen herramientas para integrar la diversidad en las aulas. A través de análisis y ejemplos prácticos, se exploran estrategias que ayudan a los educadores a construir ambientes colaborativos, fomentar el respeto mutuo y desarrollar competencias interculturales en sus estudiantes. Este enfoque busca preparar a ciudadanos globales, empáticos y comprometidos con la equidad, en un mundo cada vez más interconectado y plural.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/diversidad_cultural_educacion.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto

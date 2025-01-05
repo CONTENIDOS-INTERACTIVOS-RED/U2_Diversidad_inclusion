@@ -68,28 +68,28 @@
                 img(src='@/assets/curso/t2/7.svg', alt='Infografía sobre tipos de discriminación')
             
             .tarjeta.bg-white.p-3(x="3.5%" y="88%" numero="+")
-              .h5.mb-2 Discriminación por discapacidad
-              p Está basada en la clase social o situación económica. La discriminación socioeconómica es un problema grave en las ciudades. Quienes tienen menos recursos, suelen enfrentar barreras para acceder a servicios básicos y oportunidades, siendo tratados de manera injusta. Esto se evidencia en el sistema judicial, donde las personas de bajos recursos reciben un trato desigual, y en lugares públicos que niegan el acceso a quienes no cumplen con ciertos estándares sociales.
-
-            .tarjeta.bg-white.p-3(x="3.5%" y="37%" numero="+")
               .h5.mb-2 Discriminación racial o étnica
               p Se basa en la raza o etnia de una persona. Por ejemplo, en Colombia, según la ONU (2023), la discriminación racial afecta principalmente a las comunidades afrocolombianas e indígenas. Un ejemplo es la segregación en el acceso a servicios básicos como la educación y la salud. Las comunidades afrocolombianas, especialmente en zonas rurales, con frecuencia enfrentan barreras significativas para acceder a estos servicios.
 
-            .tarjeta.bg-white.p-3(x="28.5%" y="4.5%" numero="+")
+            .tarjeta.bg-white.p-3(x="3.5%" y="37%" numero="+")
               .h5.mb-2 Discriminación de género
               p Está relacionada con el género u orientación sexual. En nuestro país, por ejemplo, según el Ministerio de Justicia (2021), las personas LGBTQ+ enfrentan discriminación en diversos ámbitos, incluyendo el laboral y el educativo. Uno de estos casos es la discriminación en el acceso a empleos, donde las personas transgénero enfrentan mayores dificultades para ser contratadas por empresas.
 
+            .tarjeta.bg-white.p-3(x="28.5%" y="4.5%" numero="+")
+              .h5.mb-2 Discriminación por edad
+              p Va dirigida a niños, niñas y adultos mayores. La discriminación por edad, afecta tanto a los jóvenes como a los adultos mayores. Los jóvenes pueden ser discriminados en el ámbito laboral por falta de experiencia, mientras que los adultos mayores pueden ser excluidos de oportunidades laborales, debido a su edad. Un ejemplo es la dificultad que enfrentan los adultos mayores para encontrar empleo, a pesar de tener la experiencia necesaria.
+
             .tarjeta.bg-white.p-3(x="73.5%" y="5.5%" numero="+")
+              .h5.mb-2 Discriminación por discapacidad
+              p Está basada en la clase social o situación económica. La discriminación socioeconómica es un problema grave en las ciudades. Quienes tienen menos recursos, suelen enfrentar barreras para acceder a servicios básicos y oportunidades, siendo tratados de manera injusta. Esto se evidencia en el sistema judicial, donde las personas de bajos recursos reciben un trato desigual, y en lugares públicos que niegan el acceso a quienes no cumplen con ciertos estándares sociales.
+
+            .tarjeta.bg-white.p-3(x="96.5%" y="36.5%" numero="+")
               .h5.mb-2 Discriminación religiosa
               p Se refiere al trato desigual e injusto hacia una persona o grupo, basado en sus creencias religiosas. Esto puede incluir la exclusión, la negación de derechos, la violencia o el hostigamiento, debido a la religión que practican. Según Arellano (2020), en Colombia, un caso notable de discriminación religiosa ocurrió en el departamento del Tolima, donde estudiantes y profesores de diferentes municipios, reportaron situaciones de intolerancia en instituciones educativas.
 
-            .tarjeta.bg-white.p-3(x="96.5%" y="36.5%" numero="+")
+            .tarjeta.bg-white.p-3(x="96.5%" y="87%" numero="+")
               .h5.mb-2 Discriminación por nacionalidad
               p Se refiere al trato desigual e injusto hacia una persona, basado en su país de origen. Esto puede incluir exclusión social, discriminación laboral, negación de servicios y falta de acceso a derechos y oportunidades. Como bien sabemos, nuestro país alberga personas extranjeras en busca de un mejor futuro; sin embargo, según el Ministerio del Interior (2018), en Colombia, la discriminación por nacionalidad afecta principalmente a migrantes y refugiados, especialmente aquellos provenientes de Venezuela.
-
-            .tarjeta.bg-white.p-3(x="96.5%" y="87%" numero="+")
-              .h5.mb-2 Discriminación por edad
-              p Va dirigida a niños, niñas y adultos mayores. La discriminación por edad, afecta tanto a los jóvenes como a los adultos mayores. Los jóvenes pueden ser discriminados en el ámbito laboral por falta de experiencia, mientras que los adultos mayores pueden ser excluidos de oportunidades laborales, debido a su edad. Un ejemplo es la dificultad que enfrentan los adultos mayores para encontrar empleo, a pesar de tener la experiencia necesaria.
     
     .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-sm-12.col-lg-4.d-none.d-lg-block
@@ -147,7 +147,7 @@
           .col-lg-7
              h2.mb-4 ¿Qué es la exclusión?
              p.mb-4 La exclusión social es un fenómeno complejo que limita la participación plena de individuos y grupos en la vida económica, política y social, perpetuando desigualdades estructurales. En el PDF #[b Qué es la exclusión], se exploran los conceptos fundamentales, las teorías de autores destacados como Hilary Silver y Robert Castel, y casos prácticos que ilustran cómo se manifiesta este proceso en diferentes contextos históricos y contemporáneos. Este análisis proporciona herramientas para comprender las causas, dimensiones y efectos de la exclusión, destacando la importancia de políticas inclusivas. A través de ejemplos como la precariedad laboral en Europa y las barreras educativas en zonas rurales de Colombia, se examinan estrategias para enfrentar este desafío global y promover una sociedad más equitativa.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/exclusion.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto
@@ -177,7 +177,7 @@
           .col-lg-7
              h2.mb-4 ¿Qué son los estereotipos y los perjuicios? 
              p.mb-4 Los estereotipos y prejuicios son conceptos fundamentales para entender cómo las ideas preconcebidas influyen en nuestras percepciones y comportamientos hacia diferentes grupos sociales. En el PDF #[b Qué son los estereotipos y los prejuicios], se analizan las definiciones, orígenes y efectos de estos fenómenos, así como su relación con la discriminación y la desigualdad. A través de ejemplos prácticos y analogías, se abordan las formas en que estas actitudes impactan las dinámicas sociales y educativas, ofreciendo herramientas para identificar y combatir estos sesgos. Este enfoque busca fomentar una reflexión crítica sobre cómo superar las barreras que limitan la equidad y la inclusión en diversos contextos.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/estereotipos_perjuicios.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto

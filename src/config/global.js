@@ -1,6 +1,6 @@
 export default {
   global: {
-    numeroUnidad: '1',
+    numeroUnidad: '2',
     tituloUnidad: 'Diversidad cultural y social',
   },
   menuPrincipal: {
@@ -166,52 +166,52 @@ export default {
     {
       termino: 'Cultura',
       significado:
-        'Conjunto de conocimientos, creencias, arte, leyes, costumbres y cualquier otra capacidad adquirida por los miembros de una sociedad',
+        'Conjunto de conocimientos, creencias, arte, leyes, costumbres y hábitos, adquiridos por los miembros de una sociedad.',
     },
     {
       termino: 'Discriminación',
       significado:
-        'Trato desigual o perjudicial hacia una persona o grupo, basado en prejuicios como raza, género, orientación sexual o religión',
+        'Trato desigual y perjudicial hacia una persona o grupo, basado en características como raza, género, orientación sexual, discapacidad, entre otras.',
     },
     {
       termino: 'Diversidad',
       significado:
-        'Variedad y diferencia dentro de un grupo, especialmente en términos de raza, etnia, género, orientación sexual, y otros aspectos',
+        'Variedad y diferencia dentro de un grupo, especialmente en términos de cultura, etnia, género, orientación sexual, y otras características.',
     },
     {
       termino: 'Equidad',
       significado:
-        'Principio de justicia que implica dar a cada persona lo que necesita para alcanzar su máximo potencial, versus dar a todos exactamente lo mismo',
+        'Principio de justicia que implica dar a cada persona lo que necesita para alcanzar su máximo potencial, considerando sus circunstancias particulares.',
     },
     {
       termino: 'Estereotipo',
       significado:
-        'Imagen o idea simplificada y generalizada sobre un grupo de personas, que no considera las diferencias individuales',
+        'Imagen o idea simplificada y generalizada, sobre un grupo de personas, que no considera las diferencias individuales.',
+    },
+    {
+      termino: 'Exclusión',
+      significado:
+        'Proceso mediante el cual ciertos individuos o grupos son marginados y no tienen acceso a recursos, oportunidades y derechos fundamentales.',
     },
     {
       termino: 'Inclusión',
       significado:
-        'Actitud y práctica de incluir y dar la bienvenida a personas con diferentes características y trasfondos',
-    },
-    {
-      termino: 'Igualdad',
-      significado:
-        'Principio que asegura que todas las personas, independientemente de sus diferencias, tengan las mismas oportunidades para participar en la sociedad',
+        'Práctica de asegurar que todas las personas, independientemente de sus diferencias, tengan las mismas oportunidades para participar plenamente en la sociedad.',
     },
     {
       termino: 'Interculturalidad',
       significado:
-        'Interacción entre culturas diferentes, de manera respetuosa y beneficiosa para la convivencia en la comunidad',
+        'Interacción entre culturas diferentes, de manera respetuosa y equitativa, promoviendo el entendimiento y la convivencia.',
     },
     {
       termino: 'Prejuicio',
       significado:
-        'Opinión o actitud negativa hacia una persona o grupo, basada en estereotipos o ideas preconcebidas',
+        'Opinión o actitud negativa hacia una persona o grupo, basada en estereotipos y sin conocimiento previo.',
     },
     {
-      termino: 'Pluralidad cultural',
+      termino: 'Sensibilización',
       significado:
-        'Existencia de diferentes grupos culturales dentro de una sociedad, que contribuye a la diversidad y la riqueza, destinado a generar actitudes y comportamientos',
+        'Proceso de educación y concienciación sobre la importancia de la diversidad y la inclusión, destinado a cambiar actitudes y comportamientos.',
     },
   ],
   complementario: [],
