@@ -81,7 +81,8 @@
 
             .tarjeta.bg-white.p-3(x="73.5%" y="5.5%" numero="+")
               .h5.mb-2 Discriminación por discapacidad
-              p Está basada en la clase social o situación económica. La discriminación socioeconómica es un problema grave en las ciudades. Quienes tienen menos recursos, suelen enfrentar barreras para acceder a servicios básicos y oportunidades, siendo tratados de manera injusta. Esto se evidencia en el sistema judicial, donde las personas de bajos recursos reciben un trato desigual, y en lugares públicos que niegan el acceso a quienes no cumplen con ciertos estándares sociales.
+              p Hace referencia al trato desigual o excluyente hacia personas con discapacidad, basado en prejuicios o barreras estructurales que limitan su participación plena en la sociedad. Esta forma de discriminación se manifiesta en obstáculos físicos, sociales y comunicativos que restringen el acceso equitativo a derechos fundamentales como la educación, el empleo, la salud y la inclusión social.
+
 
             .tarjeta.bg-white.p-3(x="96.5%" y="36.5%" numero="+")
               .h5.mb-2 Discriminación religiosa
